@@ -35,7 +35,7 @@ unit SQLite3Wrap;
 interface
 
 uses
-  SysUtils, Classes, SQLite3;
+  System.Types, System.SysUtils, System.Classes, SQLite3;
 
 type
   ESQLite3Error = class(Exception);
